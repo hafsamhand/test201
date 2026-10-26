@@ -43,11 +43,11 @@ function BookList(params) {
   return (
     <div>
       List
-      <form onSubmit={(e) => addNew(e)}>
+      {/* <form onSubmit={(e) => addNew(e)}>
         New book
         <input type="text" onChange={(e) => setLivre(e.target.value)} />
         <button type="submit">Enregistrer</button>
-      </form>
+      </form> */}
 
       {books.map((book, index) => (
         <div key={book.id}>

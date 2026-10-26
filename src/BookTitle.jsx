@@ -17,7 +17,7 @@ function BookTitle(props) {
     return (
         <div>
            { toUpdate ? <input type="text" value={props.title} onChange={e => newTitle(e)} /> : props.title }
-           <button onClick={() => setToupdate(!toUpdate)}>unpdate</button>
+           <button onClick={() => setToupdate(!toUpdate)}>update</button>
             <button onClick={e => ddeleteTitle(e)}>Supprimer</button>
             <br></br>
         </div>
