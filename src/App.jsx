@@ -1,13 +1,17 @@
 
 import BookList from "./BookList";
 import Recherche from "./composants/Recherche";
+import TestAxios from "./composants/TestAxios";
+import TestFetch from "./composants/TestFetch";
 
 function App() {
  
   return (
     <div>
       {/* <BookList /> */}
-      <Recherche />
+      {/* <Recherche /> */}
+      {/* <TestFetch /> */}
+      <TestAxios />
     </div>
   );
 }
